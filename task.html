@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+</head>
+<body>
+    <h1><U>Student Registration Form Using Table in HTML</U></h1>
+    <table border="1px">
+        <tr>
+         <td>First Name</td> <td><input type="text" maxlength="50" required>(Max 50 Charcters Allowed)</td></tr>
+        <tr>
+        <td>Last Name </td><td> <input type="text" maxlength="50" required> (Max 50 Charcters Allowed)</td></tr>
+        <tr>
+        <td>Email ID</td> <td><input type="email" required></td></tr>
+        <tr>
+        <td>Mobile Number</td> <td> <input type="number" maxlength="1o"> (10 Digits Allowed)<br></td></tr>
+        <form>
+            <tr>
+            <td>Gender </td>  <td> <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female</td></tr>
+            <tr>
+            <td>Date of Birth(DOB) </td><td><input type="date" min="2024-01-01" max="2024-12-31"></td>
+            </tr>
+        </form>
+        <tr>
+        <td>Address</td> <td><textarea rows="10" cols="40" required></textarea></td></tr>
+        <tr>
+        <td>City </td> <td> <input type="text" maxlength="50"> (Max 50 Charcters Allowed)</td></tr>
+        <tr>
+        <td>Pin Code</td> <td> <input type="number" maxlength="50"> (Max 6 Numbers Allowed)</td></tr>
+        <tr>
+        <td>State </td><td><input type="text" maxlength="50"> (Max 50 Charcters Allowed)</td></tr>
+        <tr>
+            <td>Country</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+         <td>Hobbies</td> <td><input type="checkbox"  name="Hobbies" value="hoby">Drawing
+        <input type="checkbox" name="Hobbies" value="hoby">Singing
+        <input type="checkbox" name="Hobbies" value="hoby">Dancing
+        <input type="checkbox" name="Hobbies" value="hoby">Sketching
+        <input type="checkbox" name="Hobbies" value="hoby">Singing
+        <input type="checkbox" name="Hobbies" value="hoby" placeholder="Ex-Teaching">Others<input type="text" placeholder="Ex-Teaching">(Max 50 Characters Allowed)</td></tr>
+        <tr>
+            <td>Qualification</td> <td><input type="checkbox"  name="Qualification" value="Qualification">High School(10th)<br>
+                <input type="checkbox" name="Qualification" value="Qualification">Higher Secondary(12th)<br>
+                <input type="checkbox" name="Qualification" value="Qualification">Graduation(Bachelors)<br>
+               <input type="checkbox" name="Qualification" value="Qualification">Post Graduation(Masters)<br>
+               <input type="checkbox" name="Qualification" value="Qualification">Phd</td></tr>
+        </tr>
+        <tr>
+        <td>Courses Applied For</td><td><input type="radio" name="course">BCA(Bachelor of Computer Application)<br>
+        <input type="radio" name="course">B.Com(Bachelor of Commerece)<br>
+        <input type="radio" name="course">B.SC(Bachelor of Science)<br>
+        <input type="radio" name="course">BA(Bachelor of Arts)<br>
+        <input type="radio" name="course">MCA(Master of Computer Applications)<br>
+        <input type="radio" name="course">M.Com(Master of Commerece)<br>
+        <input type="radio" name="course">M.Sc(Master of Science)<br>
+        <input type="radio" name="course">MA(Masterof Arts)</td><br>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit">
+            <input type="reset" value="Reset"></td>
+        </tr>
+     </table>
+</body>
+</html>
